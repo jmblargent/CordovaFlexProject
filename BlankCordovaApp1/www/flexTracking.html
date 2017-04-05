@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/flexTracking.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Tracking Page</title>
 </head>
 <body>
@@ -22,10 +22,19 @@
                 <ul class="buttonsList">
                     <li type="button" id="flexChangeButton">Update Flex</li>
                 </ul>
+                <div class="flexBalanceDisplay">
+                    <p>Current Ticket Balance: </p>
+                    <p id="ticketBalance"></p><br />
+                </div>
+                <div class="ticketBalanceChange">
+                    <ul class="buttonsList">
+                        <li type="button" id="ticketChangeButton">Used Meal Swipe</li>
+                    </ul>
+                </div>
+                <ul class="buttonsList">
+                    <li id="backToStart" type="button">Start New</li>
+                </ul>
             </div>
-            <ul class="buttonsList">
-                <li id="backToStart" type="button">Start New</li>
-            </ul>
         </div>
     </div>
     <script type="text/javascript" src="scripts/flexTracking.js"></script>
