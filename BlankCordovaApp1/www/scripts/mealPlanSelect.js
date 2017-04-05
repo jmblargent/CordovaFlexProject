@@ -7,7 +7,7 @@
         document.getElementById('flexPlanSelect').submit();
 
         localStorage.flexMoney = document.getElementById('flexPlanSelect')['flexPlan'].value;
-        alert(localStorage.flexMoney);
+        //alert(localStorage.flexMoney);
 
         switch(localStorage.flexMoney){
 
