@@ -33,11 +33,4 @@
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
     };
-
-    function setFlexBalance() {
-        localStorage["Balance"] = 300;
-    };
-    function getFlexBalance() {
-        console.log(localStorage.getItem("Balance"));
-    };
 } )();
