@@ -84,15 +84,13 @@
     <Content Include="**\**" Exclude="**\platforms\**;**\bin\**;**\bld\**;**\node_modules\**;**\simulation\**;.gitignore;BlankCordovaApp1.*" />
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="www\flexTracking\**" />
     <Content Remove="www\NewFolder\**" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="config.xml">
       <SubType>Designer</SubType>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="www\flexTracking\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4a0dddb5-7a95-4fbf-97cc-616d07737a77}" />

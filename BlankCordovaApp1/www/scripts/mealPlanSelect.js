@@ -7,7 +7,7 @@ var monthlyFlag;
         localStorage.flexMoney = flexMoney;
         console.log(flexMoney);
 
-        switch(flexMoney){
+        switch(localStorage.flexMoney){
 
             case 400:
                 localStorage.ticketCount = 10;

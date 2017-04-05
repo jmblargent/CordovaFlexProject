@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/BlankCordovaApp1/.config.xml.swp
+/BlankCordovaApp1/.config_BASE_6648.xml.swp
+/BlankCordovaApp1/.config_LOCAL_6648.xml.swp
+*.swp
