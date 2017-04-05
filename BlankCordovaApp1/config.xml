@@ -24,11 +24,7 @@
     <allow-intent href="itms-apps:*" />
   </platform>
   <platform name="android">
-<<<<<<< HEAD
-    <icon src="res/icons/android/2010Logo_Stacked.png" density="ldpi"></icon>
-=======
     <icon src="res/icons/android/2010Logo_Stacked.png" density="xhdpi" />
->>>>>>> e95d20eb0d5a6436c08ee2048f73eadd05824518
   </platform>
   <platform name="ios">
     <!-- iOS 8.0+ -->
