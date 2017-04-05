@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.myappd9960b" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.SE1.FlexBalance" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US">
   <name>Flex Balance App</name>
-  <description>A blank project that uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, and the Windows Universal Platform.</description>
-  <author href="http://cordova.io" email="dev@cordova.apache.org">Apache Cordova Team</author>
+  <description>This app is for keeping track of meals and flex money at LeTourneau University.</description>
+  <author href="http://cordova.io" email="dev@cordova.apache.org">Dillon Hartsfield, Jasen Skipworth, Justin Largent</author>
   <vs:template-name>BlankJS</vs:template-name>
   <content src="index.html" />
   <access origin="*" />
@@ -105,4 +105,5 @@
   <engine name="windows" spec="4.4.2" />
   <plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
   <plugin name="cordova-plugin-dialogs" spec="~1.3.2" />
+  <plugin name="cordova-sqlite-storage" spec="~2.0.2" />
 </widget>
