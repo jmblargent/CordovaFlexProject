@@ -15,14 +15,6 @@
         "is_top_level": false,
         "variables": {}
     },
-    "cordova-sqlite-storage": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-sqlite-storage@1.4.8"
-        },
-        "is_top_level": false,
-        "variables": {}
-    },
     "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
@@ -31,10 +23,10 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-ms-azure-mobile-apps": {
+    "cordova-sqlite-storage": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-ms-azure-mobile-apps"
+            "id": "cordova-sqlite-storage@2.0.2"
         },
         "is_top_level": true,
         "variables": {}
