@@ -19,7 +19,10 @@
 
     document.getElementById("ticketChangeButton").addEventListener('click', function () {
 
-        ticketBalance = ticketBalance - 1;
+        if (ticketBalance - 1 < 0)
+            ticketBalance = 0;
+        else
+            ticketBalance = ticketBalance - 1;
         localStorage.ticketCount = ticketBalance;
 
         document.getElementById("ticketBalance").innerHTML = ticketBalance;
