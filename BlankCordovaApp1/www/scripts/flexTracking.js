@@ -5,6 +5,8 @@
     var weeklyTicketBalance = localStorage.weeklyTicketCount;
     var monthlyFlag = localStorage.monthlyFlag;
 
+    
+
     document.getElementById("flexBalance").innerHTML = flexBalance;
     document.getElementById("ticketBalance").innerHTML = ticketBalance;
 
