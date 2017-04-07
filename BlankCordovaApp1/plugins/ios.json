@@ -8,18 +8,18 @@
     },
     "installed_plugins": {
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "io.cordova.myappd9960b"
+            "PACKAGE_NAME": "com.SE1.FlexBalance"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myappd9960b"
+            "PACKAGE_NAME": "com.SE1.FlexBalance"
         },
         "cordova-sqlite-storage": {
-            "PACKAGE_NAME": "io.cordova.myappd9960b"
+            "PACKAGE_NAME": "com.SE1.FlexBalance"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "io.cordova.myappd9960b"
+            "PACKAGE_NAME": "com.SE1.FlexBalance"
         }
     }
 }
